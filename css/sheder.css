@@ -1,0 +1,102 @@
+.hus1{
+	font-size: 18px !important;
+}
+.c1{
+	background: #ececec;
+}
+.c2{
+	border-bottom: 3px solid black;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+.c3{
+	border-bottom: 3px solid #A01B2E;
+	margin-top: 30px;
+	padding-bottom: 5px;
+	font-size: 28px;
+}
+.c4{
+	padding: 5px !important;
+}
+.c6{padding: 2px;
+	font-weight: 700; 
+}
+.changec{
+	border-bottom: 1px solid black;
+	opacity: 20%;
+}
+.bclor{
+	background-color: #9F1B2E;
+	padding: 10px;
+	color: white;
+}
+.oho{
+	height: 
+}
+.bclor2{
+	background-color: #9F1B2E;
+	color: white;
+}
+.bclor2 p{
+	color: white;
+}
+.hussain{
+	margin: 10px;
+	border-bottom: 2px solid red;
+	border-top: 2px solid red;
+
+}
+.colbg{
+	background-color: grey;
+	height: 300px;
+	text-align: center;
+	padding: 60px;
+
+}
+.colbg1{
+	background-color: black;
+	height: 300px;
+	text-align: center;
+	padding: 60px;
+}
+.colbg5{
+	color: white;	
+}
+
+@media(min-width: 768px){
+	.c5{
+	font-size: 12px !important;
+}
+.defh{
+	height: 500px; 
+}
+}
+
+@media(max-width: 768px){
+	.c9{ 
+		width: 90%;
+		left: 18px;
+}
+.hw{
+	height: 100%;
+	width: 100%;
+}
+.colbg2{
+	background-color: grey;
+}
+.colbg3{
+	background-color: black;
+}
+.colbg4{
+	color: white;
+}
+.colbg6{
+	color: black;
+}
+.last{
+	font-size: 15px;
+}
+.last1{
+	margin-top: 15px;
+}
+}

@@ -1,0 +1,267 @@
+.hus1{
+	font-size: 18px !important;
+}
+.c1{
+	background: #ececec;
+}
+.c2{
+	border-bottom: 3px solid black;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+.c3{
+	border-bottom: 3px solid #A01B2E;
+	margin-top: 30px;
+	padding-bottom: 5px;
+	font-size: 28px;
+}
+.c4{
+	padding: 5px !important;
+}
+.c6{padding: 2px;
+	font-weight: 700; 
+}
+.changec{
+	border-bottom: 1px solid black;
+	opacity: 20%;
+}
+.bclor{
+	background-color: #9F1B2E;
+	padding: 10px;
+	color: white;
+}
+.oho{
+	height: 
+}
+.bclor2{
+	background-color: #9F1B2E;
+	color: white;
+}
+.bclor2 p{
+	color: white;
+}
+.hussain{
+	margin: 10px;
+	border-bottom: 2px solid red;
+	border-top: 2px solid red;
+
+}
+.colbg{
+	background-color: grey;
+	height: 300px;
+	text-align: center;
+	padding: 60px;
+
+}
+.colbg1{
+	background-color: black;
+	height: 300px;
+	text-align: center;
+	padding: 60px;
+}
+.colbg5{
+	color: white;	
+}
+
+@media(min-width: 768px){
+	.c5{
+	font-size: 12px !important;
+}
+.defh{
+	height: 500px; 
+}
+}
+
+@media(max-width: 768px){
+	.c9{ 
+		width: 90%;
+		left: 18px;
+}
+.hw{
+	height: 100%;
+	width: 100%;
+}
+.colbg2{
+	background-color: grey;
+}
+.colbg3{
+	background-color: black;
+}
+.colbg4{
+	color: white;
+}
+.colbg6{
+	color: black;
+}
+.last{
+	font-size: 15px;
+}
+.last1{
+	margin-top: 15px;
+}
+}
+
+.con{
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image:linear-gradient(rgba(15,12,41,0.5),  rgba(48,43,99,0.5), rgba(36,36,62,0.5)), url(../img/b2.jpg);
+	background-size: cover;	
+}
+
+.con .cont{
+	max-width: 800px;
+	text-align: center;
+
+}
+
+.cont h2{
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.cont p{
+	color: #fff;
+}
+
+.texte p{
+	font-weight: 300;
+	color: #fff;
+}
+
+.contai{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.contai .conin{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contai .conin .boxe{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+
+.contai .conin .boxe .icone{
+	min-width: 45px;
+	height: 45px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+	margin: 20px;
+}
+
+.contai .conin .boxe .icone .texte{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+}
+
+.texte h3 {
+	font-weight: 500;
+	color: #00bcd4;
+}
+
+.confor{
+	width: 100%;
+	padding:10px;
+	background: var(--cblue);
+}
+.apply-form
+{
+	padding:20px 10px;
+}
+.confor h2{
+	font-size: 26px;
+	color: #fff;
+	font-weight: 500;
+
+}
+
+.confor .inpubox{
+	position: relative;
+	width: 90%;
+	margin:0px auto;
+}
+
+.confor .inpubox input,
+.confor .inpubox textarea{
+	width: 100%;
+	padding:5px 10px;
+	font-size: 14px;
+	margin:15px 0;
+	border: none;
+	border-bottom:1px solid rgb(231, 231, 231);
+	outline: none;
+	resize: none;
+	background: transparent;
+}
+.confor .inpubox select{
+	background:transparent
+}
+.confor .inpubox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 5px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: rgb(235, 235, 235);
+}
+
+.confor .inpubox input:focus ~ span,
+.confor .inpubox input:valid ~ span,
+.confor .inpubox textarea:focus ~ span,
+.confor .inpubox textarea:valid ~ span{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translatey(-15px);
+}
+
+.confor .inpubox .submit-btn
+{
+	margin-top:10px;
+	background: var(--cred);
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-size: 18px;
+
+}
+  
+@media(max-width: 991px){
+	.con{
+		padding: 50px;
+	}
+	.contai{
+		flex-direction: column;
+
+	}
+	.contai .conin{
+		margin-bottom: 40px; 
+	}
+	.contai .conin,
+	.confor{
+		width: 100%; 
+	}
+}
